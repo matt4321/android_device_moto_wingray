@@ -63,7 +63,11 @@ TARGET_NO_RADIOIMAGE := true
 
 # Audio
 BOARD_USES_GENERIC_AUDIO := false
+# Omnirom has added omx legacy audio with flag BOARD_NEED_OMX_COMPAT
 BOARD_OMX_NEEDS_LEGACY_AUDIO := true
+BOARD_NEED_OMX_COMPAT := true
+BOARD_NEED_OMX_COMPAT_XOOM := true
+BOARD_USB_AUDIO_CARD_ID := 0
 
 # Camera
 USE_CAMERA_STUB := false
